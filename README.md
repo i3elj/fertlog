@@ -28,30 +28,27 @@ Caso não queira utilizar o instalador, acredito que você possa utilizar o [Cho
 Caso esteja utilizando um celular Android é só ir na PlayStore e baixar o aplicativo Expo Go. Aparentemente, caso esteja utilizando um iPhone você só vai precisar da câmera do celular (Mais pra frente você precisará ler um QR code).
 
 ## Rodando a Aplicação
-1. Para conseguir rodar a aplicação você primeiro precisa clonar o repositório.
+Para conseguir rodar a aplicação você primeiro precisa clonar o repositório.
 
-	Via SSH:
+Via SSH:
 ```bash
 git clone git@github.com:i3elj/fertlog.git
 ```
-	Via HTTPS:
+Via HTTPS:
 ```bash
 git clone https://github.com/i3elj/fertlog.git
 ```
 
-	Depois entre no diretório:
+Depois entre no diretório:
 ```bash
 cd fertlog/
 ```
 
-2. Dentro do diretório rode o seguinte commando:
-	
-	Isso vai fazer com que todos os pacotes necessários sejam instalados. Não se preocupe, nada será instalado a nível global no seu sistema, após deletar a pasta do projeto, tudo será apagado.
+Dentro do diretório rode o seguinte commando. Isso vai fazer com que todos os pacotes necessários sejam instalados. Não se preocupe, nada será instalado a nível global no seu sistema, após deletar a pasta do projeto, tudo será apagado.
 ```bash
 npm install
 ```
-
-3. Se tudo tiver dado certo, basta rodar `npx expo start` e seguir as instruções.
+Se tudo tiver dado certo, basta rodar `npx expo start` e seguir as instruções.
 
 ## Um Pouco do React Native
 O React Native é uma versão do React.js para funcionar de forma nativa em qualquer smartphone atual. Se você já ouviu falar do React.js e sabe como ele funciona não precisa continuar lendo, você já sabe tudo que precisa saber, caso contrário continue lendo.
@@ -62,11 +59,11 @@ O React Native é uma biblioteca JavaScript para desenvolver Interfaces de Usuá
 import React from 'react';
 
 function MeuComponente() {
-	return (
-		<div>
-			<h1>My Div</h1>
-		</div>
-	)
+  return (
+    <div>
+      <h1>My Div</h1>
+    </div>
+  )
 }
 
 export default MeuComponente;
@@ -96,7 +93,7 @@ const styles = StyleSheet.create({
 Depois é só utilizar a constante `styles` para adiconar as estilizações no componente certo:
 ```jsx
 <View style={styles.container}>
-	<Text>Hello World</Text>
+  <Text>Hello World</Text>
 </View>
 ```
 
@@ -144,11 +141,11 @@ export default App;
 import React from 'react';
 
 function MeuComponente() {
-	return (
-		<View style={styles.container}>
-			<Text>My Div</Text>
-		</View>
-	)
+  return (
+    <View style={styles.container}>
+      <Text>My Div</Text>
+    </View>
+  )
 }
 
 const styles = StyleSheet.create({
