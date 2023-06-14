@@ -113,6 +113,7 @@ projeto/
 ```jsx
 // App.js
 import React from 'react';
+import { View, StyleSheet } from 'react-native';
 
 import MeuComponente from './views/home/index';
 
@@ -139,6 +140,7 @@ export default App;
 ```jsx
 // views/home/index.js
 import React from 'react';
+import { View, Text, StyleSheet } from 'react-native';
 
 function MeuComponente() {
   return (
