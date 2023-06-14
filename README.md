@@ -1,7 +1,7 @@
 # FertLog
 ## Sumário:
 1. [Requisitos mínimos](https://github.com/i3elj/fertlog/tree/master#requisitos-m%C3%ADnimos)
-2. [Rodando a Aplicação]()
+2. [Rodando a Aplicação](https://github.com/i3elj/fertlog#rodando-a-aplica%C3%A7%C3%A3o)
 3. [Um Pouco do React Native]()
 
 ## Requisitos Mínimos
