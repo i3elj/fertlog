@@ -1,19 +1,7 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
-
-import Pesquisa from './src/views/pesquisa';
+import SearchAreas from './src/views/searchAreas';
 
 export default function App() {
     return (
-        <Pesquisa />
+        <SearchAreas />
     );
 }
-
-const styles = StyleSheet.create({
-    container: {
-        flex: 1,
-        backgroundColor: '#fff',
-        alignItems: 'center',
-        justifyContent: 'center',
-    },
-});
