@@ -1,8 +1,8 @@
 import { View, Text, ScrollView, StyleSheet } from 'react-native'
 
-import Theme from '../../globals/style-guide'
-import AppTitle from '../../globals/AppTitle'
-import SearchIcon from '../../globals/icons/search'
+import Theme from './style-guide'
+import AppTitle from './AppTitle'
+import SearchIcon from './icons/search'
 
 import ListaUltimasPesquisas from './ultimasPesquisas'
 
