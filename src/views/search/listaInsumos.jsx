@@ -1,4 +1,4 @@
-import { View, Text, StyleSheet } from 'react-native'
+import { View, Text, TouchableOpacity, StyleSheet } from 'react-native'
 import { LinearGradient } from 'expo-linear-gradient'
 
 import Theme from '../../globals/style-guide'
@@ -6,16 +6,18 @@ import Theme from '../../globals/style-guide'
 export default function ListaInsumos() {
     return <View style={st.container}>
         <Text style={st.title}>Insumos</Text>
-        <View style={st.item}></View>
-        <View style={st.item}></View>
-        <View style={st.item}></View>
+        <TouchableOpacity style={st.item}></TouchableOpacity>
+        <TouchableOpacity style={st.item}></TouchableOpacity>
+        <TouchableOpacity style={st.item}></TouchableOpacity>
         <LinearGradient
             colors={['#fff', '#fff', 'rgba(0,0,0,0)']}
             start={{ x: 1, y: 1}}
             end={{ x: 1, y: 0 }}
             style={st.footer}
         >
-            <Text style={st.verMais}>Ver mais</Text>
+            <TouchableOpacity style={st.verMais}>
+                <Text>Ver mais</Text>
+            </TouchableOpacity>
         </LinearGradient>
     </View>
 }
@@ -48,7 +50,6 @@ const st = StyleSheet.create({
     },
 
     verMais: {
-        height: 40,
         textAlign: 'center',
         paddingVertical: 8,
         paddingHorizontal: 10,

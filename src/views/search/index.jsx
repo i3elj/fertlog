@@ -26,5 +26,6 @@ export default function Pesquisa() {
         <ListaUltimosItens />
         <ListaNormativas />
         <ListaInsumos />
+        <ListaAreas />
     </ScrollView>
 }
