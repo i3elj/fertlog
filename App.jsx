@@ -1,7 +1,7 @@
-import SearchAreas from './src/views/searchAreas';
+import SearchProducts from './src/views/searchProducts';
 
 export default function App() {
     return (
-        <SearchAreas />
+        <SearchProducts />
     );
 }
