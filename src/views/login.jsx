@@ -7,7 +7,7 @@ import {
     TouchableOpacity,
 } from 'react-native'
 
-import Theme from '../style-guide'
+import Theme from '../globals/style-guide'
 
 import AppTitle from '../globals/AppTitle'
 
@@ -78,8 +78,8 @@ const st = StyleSheet.create({
         paddingHorizontal: 34,
         paddingVertical: 8,
         borderRadius: 34,
-        color: Theme.light.gray1,
-        backgroundColor: Theme.light.gray0,
+        color: Theme.light.gray0,
+        backgroundColor: Theme.light.gray1,
     },
 
     submit: {
@@ -100,7 +100,7 @@ const st = StyleSheet.create({
         justifyContent: 'center',
         gap: 10,
         width: '100%',
-        backgroundColor: Theme.light.gray0,
+        backgroundColor: Theme.light.gray1,
         paddingVertical: 26,
     },
 
