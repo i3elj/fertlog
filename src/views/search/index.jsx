@@ -7,8 +7,8 @@ import {
  } from 'react-native'
 
 import Theme from '../../globals/style-guide'
+import Header from '../../globals/header'
 
-import Header from './header'
 import ListaUltimosItens from './listaUltimosItens'
 import ListaNormativas from './listaNormativas'
 import ListaAreas from './listaAreas'
