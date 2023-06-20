@@ -1,4 +1,4 @@
-import { View, Text, ScrollView, StyleSheet } from 'react-native'
+import { View, Text, ScrollView, StyleSheet, StatusBar } from 'react-native'
 
 import Theme from './style-guide'
 import AppTitle from './AppTitle'
@@ -8,6 +8,7 @@ import ListaUltimasPesquisas from './ultimasPesquisas'
 
 export default function Header() {
     return <View style={st.container} >
+        <StatusBar barStyle="dark-content" backgroundColor="#fff" />
         <View style={st.searchContainer}>
             <View style={st.searchButton}>
                 <SearchIcon />
@@ -28,6 +29,7 @@ const st = StyleSheet.create({
     container: {
         padding: 20,
         paddingVertical: 28,
+        width: '100%',
     },
 
     searchContainer: {
