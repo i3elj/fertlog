@@ -16,6 +16,12 @@ export default function ListaUltimasPesquisas() {
         <TouchableOpacity style={st.style}>
             <Text>F35C04</Text>
         </TouchableOpacity>
+        <TouchableOpacity style={st.style}>
+            <Text>Zapper Plus 2</Text>
+        </TouchableOpacity>
+        <TouchableOpacity style={st.style}>
+            <Text>zetta beta max</Text>
+        </TouchableOpacity>
     </>
 }
 
