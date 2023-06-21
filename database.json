@@ -2,7 +2,7 @@
     "users": [
         {
             "id": 0,
-            "username": "admin",
+            "username": "adm",
             "password": "admin",
             "areas": [
                 {
