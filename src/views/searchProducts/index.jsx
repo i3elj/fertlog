@@ -16,12 +16,13 @@ import Highlights from './highlights'
 import General from './general'
 import Recents from './recents'
 
+// <TouchableOpacity style={st.searchButton}>
+//     <SearchIcon />
+// </TouchableOpacity>
+
 export default function SearchProducts() {
     return <>
-        <TouchableOpacity style={st.searchButton}>
-            <SearchIcon />
-        </TouchableOpacity>
-        <ScrollView>
+        <ScrollView contentContainerStyle={st.container}>
             <Header />
             <Line />
             <LastSearched />
@@ -33,13 +34,18 @@ export default function SearchProducts() {
 }
 
 const st = StyleSheet.create({
+    container: {
+        backgroundColor: '#fff',
+        paddingBottom: 100,
+    },
+
     searchButton: {
         alignItems: 'center',
         justifyContent: 'center',
         width: 64,
         height: 64,
         position: 'absolute',
-        bottom: 40,
+        bottom: 120,
         right: 40,
         zIndex: 1,
         elevation: 10,
