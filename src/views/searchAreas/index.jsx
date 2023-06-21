@@ -13,7 +13,7 @@ import Header from '../../globals/header'
 import Lista from './lista'
 
 export default function SearchAreas() {
-    return <ScrollView>
+    return <ScrollView contentContainerStyle={{backgroundColor: '#fff'}}>
         <Header />
         <Line />
         <Lista />
