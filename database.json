@@ -2,7 +2,7 @@
     "users": [
         {
             "id": 0,
-            "username": "adm",
+            "username": "admin",
             "password": "admin",
             "areas": [
                 {
@@ -30,11 +30,89 @@
                     "paises": ["Brasil", "Canada", "Espanha"],
                 }
             ],
+
+            [
+                {
+                    "versao": "6.4.2",
+                    "data": "12/05/2023",
+                    "data_aplicacao": "12/06/2023",
+                    "culturas": [2001, 2004, 2007],
+                    "produtos": [1002, 1005, 1008],
+                    "paises": ["Brasil", "China", "Canada"],
+                }
+            ],
+
+            [
+                {
+                    "versao": "3.12.0",
+                    "data": "01/01/2023",
+                    "data_aplicacao": "01/02/2023",
+                    "culturas": [2005, 2006, 2007],
+                    "produtos": [1003, 1008, 1009],
+                    "paises": ["Brasil", "China", "EUA"],
+                }
+            ],
+
+            [
+                {
+                    "versao": "5.5.4",
+                    "data": "18/11/2022",
+                    "data_aplicacao": "18/12/2022",
+                    "culturas": [2002, 2008, 2010],
+                    "produtos": [1004, 1007, 1010],
+                    "paises": ["Brasil", "China", "EUA"],
+                }
+            ],
+
+            [
+                {
+                    "versao": "7.0.7",
+                    "data": "18/11/2022",
+                    "data_aplicacao": "18/12/2022",
+                    "culturas": [2001, 2004, 2005],
+                    "produtos": [1005, 1002, 1006],
+                    "paises": ["Brasil", "Canadá", "Austrália"],
+                }
+            ],
+
+            [
+                {
+                    "versao": "4.9.8",
+                    "data": "04/09/2022",
+                    "data_aplicacao": "04/10/2022",
+                    "culturas": [2003, 2004, 2009],
+                    "produtos": [1006, 1002, 1006],
+                    "paises": ["Brasil", "Europa", "Austrália"],
+                }
+            ],
+
+            [
+                {
+                    "versao": "6.0.11",
+                    "data": "13/02/2023",
+                    "data_aplicacao": "13/03/2023",
+                    "culturas": [2001, 2002, 2010],
+                    "produtos": [1007, 1004, 1010],
+                    "paises": ["Brasil", "EUA", "América Latina"],
+                }
+            ],
+
+            [
+                {
+                    "versao": "2.6.8",
+                    "data": "25/05/2022",
+                    "data_aplicacao": "13/03/2023",
+                    "culturas": [2003, 2005, 2007],
+                    "produtos": [1008, 1004, 1010],
+                    "paises": ["Brasil", "EUA", "China"],
+                }
+            ]
+
             "produtos": [
                 {
                     "id": 1001,
                     "nome": "Pó de Rocha",
-                    "tipo": "adubo",
+                    "tipo": "Adubo",
                     "empresa": "AgroPodas",
                     "selos": ["USDA, BR"],
                     "data": "19/06/2002",
@@ -42,10 +120,135 @@
                     "descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
                 }
             ],
+            
+            [
+                {
+                    "id": 1002,
+                    "nome": "Cal",
+                    "tipo": "Fertilizante",
+                    "empresa": "ABRACAL",
+                    "selos": ["BR, CN"],
+                    "data": "13/05/2005",
+                    "culturas": [2001, 2004, 2007],
+                    "descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                }
+            ],
+
+            [
+                {
+                    "id": 1003,
+                    "nome": "Agree Biocontrole",
+                    "tipo": "Controle de pragas",
+                    "empresa": "Biocontrole",
+                    "selos": ["BR, CN, USDA"],
+                    "data": "05/08/2020",
+                    "culturas": [2005, 2006, 2007],
+                    "descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                }
+            ],
+
+            [
+                {
+                    "id": 1004,
+                    "nome": "Ácido acético",
+                    "tipo": "Limpeza",
+                    "empresa": "Celanese",
+                    "selos": ["BR, USDA, EU"],
+                    "data": "06/05/2017",
+                    "culturas": [2002, 2008, 2010],
+                    "descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                }
+            ],
+
+            [
+                {
+                    "id": 1005,
+                    "nome": "Adubo Verde",
+                    "tipo": "Adubo",
+                    "empresa": "Embrapa",
+                    "selos": ["BR, CND"],
+                    "data": "30/11/2001",
+                    "culturas": [2001, 2004, 2005],
+                    "descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                }
+            ],
+
+            [
+                {
+                    "id": 1006,
+                    "nome": "Ácido Bórico",
+                    "tipo": "Corretivo",
+                    "empresa": "PauliVida",
+                    "selos": ["BR, EU, AUS"],
+                    "data": "02/11/2021",
+                    "culturas": [2003, 2004, 2009],
+                    "descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                }
+            ],
+
+            [
+                {
+                    "id": 1007,
+                    "nome": "Detergente Biodegradável",
+                    "tipo": "Limpeza",
+                    "empresa": "ODD",
+                    "selos": ["USDA, BR, LA"],
+                    "data": "09/07/2010",
+                    "culturas": [2001, 2002, 2010],
+                    "descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                }
+            ],
+
+            [
+                {
+                    "id": 1008,
+                    "nome": "Bactel Dillon",
+                    "tipo": "Controle de pragas",
+                    "empresa": "eccb",
+                    "selos": ["USDA, BR, CN"],
+                    "data": "15/01/2023",
+                    "culturas": [2003, 2005, 2007],
+                    "descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                }
+            ],
+
+            [
+                {
+                    "id": 1009,
+                    "nome": "Metamip Promip",
+                    "tipo": "Controle de pragas",
+                    "empresa": "Promip",
+                    "selos": ["BR, EU"],
+                    "data": "02/12/2022",
+                    "culturas": [2004, 2006, 2008],
+                    "descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                }
+            ],
+
+            [
+                {
+                    "id": 1010,
+                    "nome": "Sulfato de Potássio",
+                    "tipo": "Fertilizante",
+                    "empresa": "PauliVida",
+                    "selos": ["BR, EU, AUS"],
+                    "data": "03/03/2021",
+                    "culturas": [2008, 2009, 2010],
+                    "descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                }
+            ]
+
             "culturas": [
                 { "id": 2001, "nome": "Uva" },
                 { "id": 2002, "nome": "Melancia" },
                 { "id": 2003, "nome": "Manga" },
+                { "id": 2004, "nome": "Acerola" },
+                { "id": 2005, "nome": "Goiaba" },
+                { "id": 2006, "nome": "Maracujá" },
+                { "id": 2007, "nome": "Cajú" },
+                { "id": 2008, "nome": "Maçã" },
+                { "id": 2009, "nome": "Banana" },
+                { "id": 2010, "nome": "Tomate" },
             ]
         }
     ]
