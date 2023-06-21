@@ -17,7 +17,7 @@ export default function SearchIcon() {
             15.6601 5.75 17.4048 5.75 19.1667Z"
             stroke="black"
             strokeWidth="4"
-            strokeLinecap="round"k
+            strokeLinecap="round"
             strokeLinejoin="round"/>
     </Svg>
 }
