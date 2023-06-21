@@ -1,9 +1,8 @@
 import {
     View,
-    Text,
     ScrollView,
-    TouchableOpacity,
     StatusBar,
+    StyleSheet,
  } from 'react-native'
 
 import Theme from '../../globals/style-guide'
@@ -14,8 +13,8 @@ import ListaNormativas from './listaNormativas'
 import ListaAreas from './listaAreas'
 import ListaInsumos from './listaInsumos'
 
-export default function Pesquisa() {
-    return <ScrollView>
+export default function GlobalSearch() {
+    return <ScrollView contentContainerStyle={st.container}>
         <StatusBar barStyle="dark-content" backgroundColor="#fff" />
         <Header />
         <View style={{
@@ -29,3 +28,10 @@ export default function Pesquisa() {
         <ListaAreas />
     </ScrollView>
 }
+
+const st = StyleSheet.create({
+    container: {
+        paddingBottom: 100,
+        backgroundColor: '#fff',
+    },
+})
