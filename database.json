@@ -3,7 +3,50 @@
         {
             "id": 0,
             "username": "admin",
-            "password": "admin"
+            "password": "admin",
+            "areas": [
+                {
+                    "nome": "Area B",
+                    "extensao": 20,
+                    "grupo": "3B-2",
+                    "local": "Fazenda Novo Sol",
+                    "solo": {
+                        "tipo": "poroso",
+                        "ph": 7,
+                    },
+                    "umidade": 40,
+                    "culturas": [2003],
+                    "produtos": [1001, 1003],
+                    "descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                }
+            ],
+            "normativas": [
+                {
+                    "versao": "5.3.2",
+                    "data": "03/06/2023",
+                    "data_aplicacao": "15/07/2023",
+                    "culturas": [2001, 2002, 2003],
+                    "produtos": [1001, 1002, 1003],
+                    "paises": ["Brasil", "Canada", "Espanha"],
+                }
+            ],
+            "produtos": [
+                {
+                    "id": 1001,
+                    "nome": "Pó de Rocha",
+                    "tipo": "adubo",
+                    "empresa": "AgroPodas",
+                    "selos": ["USDA, BR"],
+                    "data": "19/06/2002",
+                    "culturas": [2001, 2003],
+                    "descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                }
+            ],
+            "culturas": [
+                { "id": 2001, "nome": "Uva" },
+                { "id": 2002, "nome": "Melancia" },
+                { "id": 2003, "nome": "Manga" },
+            ]
         }
     ]
 }
