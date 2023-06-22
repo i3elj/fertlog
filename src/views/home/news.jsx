@@ -12,11 +12,9 @@ export default function News() {
            <Text style={st.titleText}>Noticias</Text>
         </View>
         <View style={st.feed}>
+            <NewsItem style={{backgroundColor: '#E6E6E6'}}/>
             <NewsItem />
-            <Line style={{borderColor: "#ababab" }}/>
-            <NewsItem />
-            <Line style={{borderColor: "#ababab" }}/>
-            <NewsItem />
+            <NewsItem style={{backgroundColor: '#E6E6E6'}}/>
         </View>
     </View>
 }
@@ -32,10 +30,8 @@ const st = StyleSheet.create({
     },
 
     feed: {
-        gap: 12,
-        paddingHorizontal: 20,
-        paddingVertical: 10,
         borderRadius: 8,
+        overflow: 'hidden',
         backgroundColor: Theme.light.gray1,
     },
 })

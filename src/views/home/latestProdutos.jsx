@@ -1,5 +1,7 @@
 import { View, Text, ScrollView, StyleSheet } from 'react-native'
 
+import Item from '../productsRouter/products/item'
+
 import Theme from '../../globals/style-guide'
 
 export default function LatestProdutos() {
@@ -10,14 +12,18 @@ export default function LatestProdutos() {
             showsHorizontalScrollIndicator={false}
             contentContainerStyle={st.itemContainer}
         >
-            <View style={st.item}></View>
-            <View style={st.item}></View>
-            <View style={st.item}></View>
-            <View style={st.item}></View>
-            <View style={st.item}></View>
-            <View style={st.item}></View>
-            <View style={st.item}></View>
-            <View style={st.item}></View>
+            <Item />
+            <Item />
+            <Item />
+            <Item />
+            <Item />
+            <Item />
+            <Item />
+            <Item />
+            <Item />
+            <Item />
+            <Item />
+            <Item />
         </ScrollView>
     </View>
 }
@@ -25,16 +31,17 @@ export default function LatestProdutos() {
 const st = StyleSheet.create({
     container: {
         paddingVertical: 20,
-        paddingLeft: 20,
         gap: 10,
         backgroundColor: '#fff',
     },
 
     title: {
         fontSize: 26,
+        paddingLeft: 20,
     },
 
     itemContainer: {
+        paddingLeft: 20,
         flexDirection: 'row',
         gap: 10,
         paddingRight: 20,

@@ -1,6 +1,8 @@
 import { View, Text, TouchableOpacity, StyleSheet } from 'react-native'
 import { LinearGradient } from 'expo-linear-gradient'
 
+import ItemProduct from '../productsRouter/products/item'
+
 import Theme from '../../globals/style-guide'
 
 export default function ListaInsumos() {

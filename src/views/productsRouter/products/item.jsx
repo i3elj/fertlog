@@ -1,13 +1,15 @@
 import { TouchableOpacity, Image, Text, StyleSheet } from 'react-native'
 import { LinearGradient } from 'expo-linear-gradient'
 
-import Theme from '../../globals/style-guide'
+import Theme from '../../../globals/style-guide'
 
-export default function Item({}) {
-    return <TouchableOpacity style={st.item}>
+export default function Item({ navigation }) {
+    return <TouchableOpacity
+        onPress={() => navigation.navigate('ProductsDetails')} style={st.item}
+        >
         <Image
             style={st.image}
-            source={require('../../../assets/product.png')}
+            source={require('../../../../assets/product.png')}
         />
         <LinearGradient
             colors={[Theme.light.gray2, Theme.light.gray2, 'rgba(0,0,0,0)']}

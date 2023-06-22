@@ -1,10 +1,13 @@
 import { View, Text, TouchableOpacity, StyleSheet } from 'react-native'
 
-import Theme from '../../globals/style-guide'
-import ReportIcon from '../../globals/icons/reportIcon'
+import Theme from '../../../globals/style-guide'
+import ReportIcon from '../../../globals/icons/reportIcon'
 
-export default function Item() {
-    return <TouchableOpacity style={st.container}>
+export default function Item({ navigation }) {
+    return <TouchableOpacity
+            onPress={() => navigation.navigate("NormativasDetails")}
+            style={st.container}
+        >
         <ReportIcon width={42} viewBox={32} />
         <View style={st.info}>
             <Text style={st.infoNome}>DIRETRIZ 5.3.2

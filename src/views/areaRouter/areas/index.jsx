@@ -6,16 +6,16 @@ import {
     StatusBar,
  } from 'react-native'
 
-import Theme from '../../globals/style-guide'
-import Line from '../../globals/line'
-import Header from '../../globals/header'
+import Theme from '../../../globals/style-guide'
+import Line from '../../../globals/line'
+import Header from '../../../globals/header'
 
 import Lista from './lista'
 
-export default function SearchAreas() {
+export default function Areas({ navigation }) {
     return <ScrollView contentContainerStyle={{backgroundColor: '#fff'}}>
         <Header />
         <Line />
-        <Lista />
+        <Lista navigation={navigation} />
     </ScrollView>
 }

@@ -4,8 +4,8 @@ import Theme from '../../globals/style-guide'
 import Header from '../../globals/header'
 import Line from '../../globals/line'
 
-export default function NewsItem() {
-    return <View style={st.news}>
+export default function NewsItem({ style }) {
+    return <View style={[st.news, style]}>
        <Text style={st.newsTitle}>
            Canada adere os insumos organicos
        </Text>
@@ -16,6 +16,11 @@ export default function NewsItem() {
 }
 
 const st = StyleSheet.create({
+    news: {
+        paddingHorizontal: 20,
+        paddingVertical: 8,
+    },
+
     newsTitle: {
         fontSize: 20,
     },

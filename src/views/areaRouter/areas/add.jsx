@@ -1,7 +1,7 @@
 import { TouchableOpacity, StyleSheet } from 'react-native'
 
-import Theme from '../../globals/style-guide'
-import AddIcon from '../../globals/icons/AddIcon'
+import Theme from '../../../globals/style-guide'
+import AddIcon from '../../../globals/icons/AddIcon'
 
 export default function Add() {
     return (

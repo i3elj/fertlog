@@ -6,10 +6,10 @@ import {
     StyleSheet,
  } from 'react-native'
 
-import Theme from '../../globals/style-guide'
-import Header from '../../globals/header'
-import Line from '../../globals/line'
-import SearchIcon from '../../globals/icons/search'
+import Theme from '../../../globals/style-guide'
+import Header from '../../../globals/header'
+import Line from '../../../globals/line'
+import SearchIcon from '../../../globals/icons/search'
 
 import Item from './item'
 
@@ -17,7 +17,7 @@ import Item from './item'
 //     <SearchIcon />
 // </TouchableOpacity>
 
-export default function Products() {
+export default function Products({ navigation }) {
     return <>
         <ScrollView contentContainerStyle={st.container}>
             <Header />
@@ -25,13 +25,13 @@ export default function Products() {
              <View style={st.main}>
                 <Text style={st.title}>Produtos</Text>
                 <View style={st.scroll}>
-                    <Item />
-                    <Item />
-                    <Item />
-                    <Item />
-                    <Item />
-                    <Item />
-                    <Item />
+                    <Item navigation={navigation} />
+                    <Item navigation={navigation} />
+                    <Item navigation={navigation} />
+                    <Item navigation={navigation} />
+                    <Item navigation={navigation} />
+                    <Item navigation={navigation} />
+                    <Item navigation={navigation} />
                 </View>
         </View>
         </ScrollView>

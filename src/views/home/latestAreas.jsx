@@ -1,13 +1,16 @@
 import { View, Text, ScrollView, StyleSheet } from 'react-native'
 
+import Item from '../areaRouter/areas/item'
+
 import Theme from '../../globals/style-guide'
 
 export default function LatestAreas() {
     return <View style={st.container}>
         <Text style={st.title}>Areas</Text>
         <View style={st.itemContainer}>
-            <View style={st.item}></View>
-            <View style={st.item}></View>
+            <Item />
+            <Item />
+            <Item />
         </View>
     </View>
 }

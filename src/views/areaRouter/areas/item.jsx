@@ -7,11 +7,14 @@ import {
 } from 'react-native'
 import { LinearGradient } from 'expo-linear-gradient'
 
-import Theme from '../../globals/style-guide'
+import Theme from '../../../globals/style-guide'
 
-export default function Item() {
-    return <TouchableOpacity style={st.container}>
-        <Image style={st.image} source={require('../../../assets/map.png')} />
+export default function Item({ navigation }) {
+    return <TouchableOpacity
+            onPress={() => navigation.navigate("AreasDetails")}
+            style={st.container}
+        >
+        <Image style={st.image} source={require('../../../../assets/map.png')} />
         <View style={st.degrade}></View>
         <LinearGradient
             colors={[Theme.light.gray1, Theme.light.gray1, 'rgba(0,0,0,0)']}

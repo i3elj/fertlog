@@ -1,22 +1,22 @@
 import { View, Text, TouchableOpacity, StyleSheet } from 'react-native'
 import { LinearGradient } from 'expo-linear-gradient'
 
-import Theme from '../../globals/style-guide'
+import Theme from '../../../globals/style-guide'
 
 import Add from './add'
 import Item from './item'
 
-export default function Lista() {
+export default function Lista({ navigation }) {
     return <View style={st.container}>
         <Text style={st.title}>Minhas Areas</Text>
-        <Item />
-        <Item />
-        <Item />
-        <Item />
-        <Item />
-        <Item />
-        <Item />
-        <Item />
+        <Item navigation={navigation} />
+        <Item navigation={navigation} />
+        <Item navigation={navigation} />
+        <Item navigation={navigation} />
+        <Item navigation={navigation} />
+        <Item navigation={navigation} />
+        <Item navigation={navigation} />
+        <Item navigation={navigation} />
         <Add />
     </View>
 }
