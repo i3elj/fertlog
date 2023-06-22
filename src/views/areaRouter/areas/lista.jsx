@@ -4,18 +4,19 @@ import { LinearGradient } from 'expo-linear-gradient'
 import Theme from '../../globals/style-guide'
 
 import Add from './add'
+import Item from './item'
 
 export default function Lista() {
     return <View style={st.container}>
         <Text style={st.title}>Minhas Areas</Text>
-        <TouchableOpacity style={st.item}></TouchableOpacity>
-        <TouchableOpacity style={st.item}></TouchableOpacity>
-        <TouchableOpacity style={st.item}></TouchableOpacity>
-        <TouchableOpacity style={st.item}></TouchableOpacity>
-        <TouchableOpacity style={st.item}></TouchableOpacity>
-        <TouchableOpacity style={st.item}></TouchableOpacity>
-        <TouchableOpacity style={st.item}></TouchableOpacity>
-        <TouchableOpacity style={st.item}></TouchableOpacity>
+        <Item />
+        <Item />
+        <Item />
+        <Item />
+        <Item />
+        <Item />
+        <Item />
+        <Item />
         <Add />
     </View>
 }
